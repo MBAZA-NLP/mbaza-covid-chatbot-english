@@ -6,7 +6,7 @@ Here are the steps on how to set Mbaza up on your local machine:
 ##### 1. Clone the Mbaza repository:
 
 ```
-git remote add origin https://github.com/MBAZA-NLP/mbaza-covid-chatbot-english.git
+git clone https://github.com/MBAZA-NLP/mbaza-covid-chatbot-english.git
 
 cd mbaza-covid-chatbot-english
 ```
