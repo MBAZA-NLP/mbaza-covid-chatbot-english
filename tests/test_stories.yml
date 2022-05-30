@@ -1,0 +1,70 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+version: "3.0"
+
+stories:
+# Salutation + sendoff
+- story: salutation + sendoff
+  steps:
+  - user: |
+      hello there!
+    intent: salutation
+  - action: utter_salutation
+  - action: utter_help
+  - user: |
+      bye
+    intent: sendoff
+  - action: utter_sendoff
+
+# Lockdown
+- story: check and display lockdown information
+  steps:
+  - user: |
+      is [Nyamasheke]{"entity":"location", "entity":"location"} currently experiencing lockdown?
+    intent: lockdown_areas
+  - action: action_check_lockdown
+
+# Lockdown 2
+- story: check and display lockdown information 2
+  steps:
+  - user: |
+      are we under lockdown?
+    intent: lockdown_areas
+  - action: action_check_lockdown
+  - user: |
+      I am in [Nyamasheke]{"entity":"location"}
+    intent: specify_location
+  - action: action_check_lockdown
+
+# Curfew
+- story: check and display curfew time
+  steps:
+  - user: |
+      the curfew time in [Ruhango]{"entity":"location"} is what?
+    intent: curfew_time
+  - action: action_check_curfew_time
+
+# Curfew 2
+- story: check and display curfew time 2
+  steps:
+  - user: |
+      can you tell me the time for curfew?
+    intent: curfew_time
+  - action: action_check_curfew_time
+  - user: |
+      I am in [Ruhango]{"entity":"location"}
+    intent: specify_location
+  - action: action_check_curfew_time
+
+# OOS
+- story: specifies location after greeting
+  steps:
+  - user: |
+      hello
+    intent: salutation
+  - action: utter_salutation
+  - action: utter_help
+  - user: |
+      I am in [Rusizi]{"entity":"location"}
+    intent: specify_location
+  - action: utter_not_sure

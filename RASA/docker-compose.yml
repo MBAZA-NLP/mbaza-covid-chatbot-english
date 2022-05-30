@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  rasa:
+    build: ../docker.rasa
+    environment:
+      - RASA_DUCKLING_HTTP_URL=http://duckling:8000
+    ports:
+      - "5005:5005" 
+    networks:
+      - infrastructure_default
+
+  rasa-actions:
+    build: ../docker.actions
+    volumes:
+      - ../actions:/app/actions
+    environment:
+       - KBA_SERVER=http://kba:3000
+    ports:
+      - "5055:5055" 
+    networks:
+      - infrastructure_default
+    
+
+  
+networks:
+  infrastructure_default: # external network
+    external: true

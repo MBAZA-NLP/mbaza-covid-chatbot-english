@@ -1,0 +1,236 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+version: "3.0"
+
+stories:
+# Goodbye / sendoff
+- story: say goodbye
+  steps:
+  - user: |
+      bye-bye!
+    intent: sendoff
+  - action: utter_sendoff
+
+# Statistics
+- story: 1- show covid statistics
+  steps:
+  - user: |
+      how many [covid]{"entity":"disease"} cases are in the [world]{"entity":"GPE"}
+    intent: statistics
+  - action: action_check_statistics
+
+# Statistics
+- story: 2- show covid statistics
+  steps:
+  - user: |
+      the [covid 19]{"entity":"disease", "value":"covid"} cases in [rwanda]{"entity":"GPE"}
+    intent: statistics
+  - action: action_check_statistics
+
+# Symptoms
+- story: 1- show covid symptoms
+  steps:
+  - user: |
+      does [covid]{"entity":"disease"} have [symptoms]{"entity":"symptom"}?
+    intent: symptoms
+  - action: action_kba_layer
+
+# Symptoms 2
+- story: 2- show covid symptoms
+  steps:
+  - user: |
+      what are the [covid]{"entity":"disease"} [symptoms]{"entity":"symptom"}
+    intent: symptoms
+  - action: action_kba_layer
+
+# Prevention
+- story: 1- show covid prevention measures
+  steps:
+  - user: |
+      what are the preventive measures for [covid 19]{"entity":"disease", "value":"covid"}?
+    intent: prevention
+  - action: action_kba_layer
+
+# Prevention 2
+- story: 2- show covid prevention measures
+  steps:
+  - user: |
+      what are the preventive measures?
+    intent: prevention
+  - action: action_kba_layer
+
+# Fines and penalties
+- story: 1- show fines and penalties
+  steps:
+  - user: |
+      what would I pay for [not wearing a mask]{"entity":"offence-mask"}?
+    intent: fines_penalties
+  - action: action_check_fines_penalties
+
+# Fines and penalties 2
+- story: 2- show fines and penalties
+  steps:
+  - user: |
+      what if I [don't obey curfew]{"entity":"offence-curfew"} rules?
+    intent: fines_penalties
+  - action: action_check_fines_penalties
+  
+# Fines and penalties 3
+- story: 3- show fines and penalties
+  steps:
+  - user: |
+      can I be found [in a bar]{"entity":"offence-bar"}?
+    intent: fines_penalties
+  - action: action_check_fines_penalties
+  
+# Fines and penalties 4
+- story: 4- show fines and penalties
+  steps:
+  - user: |
+      what are the penalties for [unauthorized gatherings]{"entity":"offence-gathering"}?
+    intent: fines_penalties
+  - action: action_check_fines_penalties
+
+# Fines and penalties 5
+- story: 5- show fines and penalties
+  steps:
+  - user: |
+      what if I [disobey lockdown]{"entity":"offence-lockdown"} rule?
+    intent: fines_penalties
+  - action: action_check_fines_penalties
+
+# Fines and penalties 6
+- story: 6- show fines and penalties
+  steps:
+  - user: |
+     what happens for [not social distancing]{"entity":"offence-distance"}?
+    intent: fines_penalties
+  - action: action_check_fines_penalties
+
+# Testing cost
+- story: 1- show the covid testing cost
+  steps:
+  - user: |
+      how much should I pay for a [covid 19]{"entity":"disease", "value":"covid"} test?
+    intent: testing_costs
+  - action: action_kba_layer
+
+# Testing cost 2
+- story: 2- show the covid testing cost
+  steps:
+  - user: |
+      [covid]{"entity":"disease"} test, how much?
+    intent: testing_costs
+  - action: action_kba_layer
+
+# Validity
+- story: 1- show validity of covid test
+  steps:
+  - user: |
+      what is the expiry like for [covid]{"entity":"disease"} tests?
+    intent: testing_validity
+  - action: action_kba_layer
+
+# Validity 2
+- story: 2- show validity of covid test
+  steps:
+  - user: |
+      I took a [covid]{"entity":"disease"} tests on monday, I would like to know if it is still valid?
+    intent: testing_validity
+  - action: action_kba_layer
+
+# Testing centers
+- story: 1- show the covid testing centers
+  steps:
+  - user: |
+      I dont know where to go for [covid]{"entity":"disease"} [testing]{"entity":"service-type"}
+    intent: testing_centers
+  - action: action_show_testing_centers
+
+  # Testing centers 2
+- story: 2- show the covid testing centers
+  steps:
+  - user: |
+      where can I do a [covid]{"entity":"disease"} [test]{"entity":"service-type"}
+    intent: testing_centers
+  - action: action_show_testing_centers
+
+# Vaccination schedule
+- story: show covid vaccination schedule
+  steps:
+  - user: |
+      in what order will the [vaccination]{"entity":"service-type"} be given?
+    intent: vaccination_schedule
+  - action: action_kba_layer
+
+# Vaccination requirements
+- story: show covid vaccination requirements
+  steps:
+  - user: |
+      what are the [covid 19]{"entity":"disease", "value":"covid"} vaccination requirement?
+    intent: vaccination_requirement
+  - action: action_kba_layer
+
+# Testing procedures
+- story: show testing procedures
+  steps:
+  - user: |
+      what do i need to do to get the [covid-19]{"entity":"disease", "value":"covid"} [test]{"entity":"service-type"}?
+    intent: testing_procedures
+  - action: action_kba_layer
+
+# inappropriate
+- story: 1- close and end/restart session when user utters an inappropriate message
+  steps:
+  - user: |
+      are you crazy?
+    intent: inappropriate
+  - action: utter_inappropriate_restart
+
+# inappropriate 2
+- story: 2- close and end/restart session when user utters an inappropriate message
+  steps:
+  - user: |
+      are you foolish?
+    intent: inappropriate
+  - action: utter_inappropriate_restart
+
+# Homebased care
+- story: 1- show homebased care information (if patients can be treated at home or not)
+  steps:
+  - user: |
+      I just got [covid]{"entity":"disease"}. Can I be treated at home?
+    intent: homebased_care
+  - action: action_kba_layer
+
+# Homebased care 2
+- story: 2- show homebased care information (if patients can be treated at home or not)
+  steps:
+  - user: |
+      will I be allowed to stay at home and receive treatments?
+    intent: homebased_care
+  - action: action_kba_layer
+
+# Homebased care escalation
+- story: 1- show what to do if symptoms persists or increases for a covid patient
+  steps:
+  - user: |
+      My [covid]{"entity":"disease"} just got worse. what do I do?
+    intent: homebased_care_escalation
+  - action: action_kba_layer
+
+# Homebased care escalation 2
+- story: 2- show what to do if symptoms persists or increases for a covid patient
+  steps:
+  - user: |
+      I am seeing more symptoms even if I am already treating [covid]{"entity":"disease"}. what do I do?
+    intent: homebased_care_escalation
+  - action: action_kba_layer
+  
+# Bot challenge
+- story: bot challenge
+  steps:
+  - user: |
+      are you a bot?
+    intent: bot_challenge
+  - action: utter_iamabot

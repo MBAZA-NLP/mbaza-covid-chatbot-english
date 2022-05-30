@@ -1,0 +1,1743 @@
+version: "3.0"
+nlu:
+- intent: out_of_scope_custom/covid
+  examples: |
+    - which web addresses should be browsed to search for accurate covid-19 information
+    - Are patients who recovered from COVID-19 immune against the virus?
+    - where covid-19 was seen for first time?
+    - why covid-19 is bad compared to other viruses?
+    - what are covid-19 consequences
+    - How many factions of covid 19?
+    - what are the effects of covid[19
+    - How the covid affects security organisation?
+    - there is rummers of covid 19 trend on social media, what should we do to know truth?
+    - Is it true covid affect curiture?
+    - what are the covid-19 variants
+    - how can I get accurate information about covid-19
+    - can covid 19 transform into other viruses?
+    - How the covid affect social economy?
+    - many people claim that covid 19 doesn't exist, are they in truth?
+    - what is the consequences of covid-19 to living being?
+    - which covid-19 vaccines approved by the world health organization?
+    - is a covid-19 pandemic disease?
+    - are any person who died of Covid-19
+    - Is it true covid kills people?
+    - where can I search for accurate information about covid-19
+    - Is covid 19 treated?
+    - what resources are available to help people to be informed about covid-19?
+    - except delta there are other types of covid-19?
+    - what is the negative impact of covid-19?
+    - what are the names of covid-19 variants
+    - what are covid-19 effects
+    - how many variants of covid-19 reported wordwide
+    - except covid 19 there was any other pandemic in the world?
+    - can I get covid-19 through the sexual intercorse
+    - can someone test negative and later test positive on a viral test for covid-19
+    - how many approved covid-19 vaccines
+    - what's the origin of covid-19
+    - which country most affected by covid-19
+    - What did COVID-19 affect economy
+    - is covid-19 tangible or is intangible?
+    - describe the effect of covid 19?
+    - what's the name of all covid-19 variants
+    - Is COVID-19 worse than flu?
+    - how long can covid-19 last on hot metal?
+    - what does long covid mean
+    - what is the corses of covid 19?
+    - describe the form of covid-19?
+    - differentiate PCR taste from rapid taste?
+    - when covid-19 was confirmed as disease outbreak in the world?
+    - which covid-19 reported variants
+    - Is covid 19 a curable disease?
+    - where covid 19 was started?
+    - what big challenges covid-19 cause to the world?
+    - distinguish covid-19 from other viruses?
+    - where did covid-19 come from
+    - how long does the virus cause covid-19 last on surface?
+    - Where was COVID-19 first identified?
+    - explain the cause of covid 19?
+    - how covid 19 was started?
+    - what are covid-19 variants
+    - When was COVID-19 declared a pandemic?
+    - what's the similarity of covid-19 to other diseases
+    - what is the orgin of covid19?
+    - what the listens we can learn from covid 19?
+    - how many reported covid-19 variants worldwide
+    - what are the disadvantage of covid 19?
+    - how long does covid-19 stay on air
+    - is china a source of covid-19 in the world?
+    - When and where the first case of the delta variant was reported
+    - what are the categories of covid-19?
+    - where the first cases of covid-19 variants were reported
+    - how long it requires to be recovered from covid-19?
+    - how long can covid-19 live in body's person?
+    - what are common covid-19 misinformation worldwide
+    - how covid-19 become a virus?
+    - what are the names of all covid-19 variants
+    - what are the effects of covid-19?
+    - Is it true covid kills 10000000 in the world?
+    - which researches done about covid-19
+    - what are the cause of covid-19/?
+    - how long it takes to be cured when you sick covid-19?
+    - What about religion during covid?
+    - what are the consequences of covid-19
+    - in which area covid-19 was found first time?
+    - what is the consequences of covid-19?
+    - can covid-19 spread quickly in the winter
+    - Covid kills ord people than young people?
+    - can covid-19 cause death
+    - Can Covid-19 cause death?
+    - is covid 19 worst than HIVAIDS?
+    - what are the advantages of covid-19?
+    - where covid-19 has started?
+    - in which place covid 19 is to much compared to others?
+    - What are the causes of covid 19?
+    - how long does covid-19 stay on human hair
+    - what does covid-19 variants mean
+    - what is the real causes of covid-19?
+    - in which conditions covid-19 can survive or longest?
+    - what are the effects of covid 19?
+    - is covid 19 inverted by a man?
+    - There's a lot of misinformation about COVID-19 online. What should I do?
+    - what are the consequences of lockdown caused by covid-19?
+    - instead of delta, what are other covid-19 variants
+    - What about covid during pregnancy?
+- intent: out_of_scope_custom/other
+  examples: |
+    - i can't deal with _your_ request
+    - there is any refugee in rwanda tasted positive for covid-19?
+    - there is any advantage of covid 19 to human being?
+    - there are something positive caused by covid 19?
+    - how many lines of codes
+    - what is a mascot
+    - I am an opioid addic
+    - winter is already leaving
+    - what the effect of covid 19 to the animals?
+    - can black people attract covid-19 as white people?
+    - Hi i want to go palghar
+    - hey, I contacted you a couple of days ago but didn't get any response, any news?
+    - i want pizza!!
+    - can someone test negative and later test positive in viral for covid-19?
+    - can you help me with the docs?
+    - again?
+    - what does  the covid-19 wave mean
+    - Are Africans less at risk of contracting the COVID-19 compared to other races?
+    - how can church prayers might a way of spreading covid-19
+    - CALL THE POLICE
+    - I want a pizza
+    - you already have that
+    - how to get rasa studio
+    - what is differance between bot and mascot?
+    - you girl
+    - what is adlingo
+    - why the people should have to worry about covid-19
+    - what the impact of covid-19 to te economy of a country?
+    - some thing else
+    - when covid-19 arrived in rwanda?
+    - when is the next train is coming?
+    - can someone test negative and at the same time test positive for covid-19?
+    - is covid-19 a punishment's of GOD?
+    - help with Alma Abrams
+    - how can vaccines of covid-19 can rich to massive people when there is no load?
+    - Can YouTube talk?
+    - who is eligible for covid-19?
+    - chinese ok?
+    - How severe is COVID-19 infection?
+    - What do you prefer?
+    - sorry, i cannot rephrase
+    - what is evolution ?
+    - who was first to be a victim of covid-19?
+    - i want pizza
+    - my name k
+    - how pen medecine used to cure covid-19?
+    - does a pregnant woman allowed to be vaccinated
+    - do you sell vacuum robots?
+    - what's the mandate of a covid-19 test
+    - who is mostly irregible for covid-19 than others?
+    - you have job opening
+    - and make chicken noises into the phone
+    - demonstrate the negative impact of covid-19?
+    - Who is most at risk of catching COVID-19?
+    - by relevent example, explain the way virus of covid-19 form itself and enter in someone's body?
+    - who is Sharon Zeches
+    - SEL ME SOMETHING
+    - What is 2 + 2?
+    - colder
+    - what are the positive impact of covid-19?
+    - i want to see your happy customers
+    - what can be happened when all countries establish their vaccines for covid-19?
+    - Why is my TRUST score set to 50 after I completed the registration process?
+    - what else?
+    - i'm hungry
+    - what is the advantages of fighting covid-19?
+    - I can barely see this white text on light gray background ...
+    - is it allow to
+    - who might not be allowed to get vaccinated against covid-19?
+    - what happen when someone sick malaria affected by covid-19?
+    - who really inverted this covid 19?
+    - which hospital receive many sickers of covid-19?
+    - The weather is good
+    - How the covid affect common market?
+    - do you like movies
+    - where was the first covid-19 case reported worldwide
+    - silly bot
+    - what is the time today?
+    - Recharge
+    - do you liek cheese?
+    - can covid-19 have ability of causing other illnesses?
+    - Have we met before?
+    - how Rwanda was affected by covid-19 economically
+    - does Covid-19 spread quickly on winter conditions?
+    - alexa, order 5 tons of natrium chloride
+    - what is the weather now?
+    - how much is 10 + 89
+    - why covid-19 is among the category of pandemics
+    - what did you eat for lunch?
+    - will u kill me
+    - if someone is a close contact, will he be tested for covid-19?
+    - old people cure covid-19 as young people?
+    - you have children?
+    - what physical exercises might be done by a covid-19 patient
+    - Is there covid affect economic in Rwanda?
+    - only that?
+    - Why financial should not stable during COVID-19?
+    - whta you think about gdpr?
+    - how to manage the loss caused by covid-19?
+    - ljljl
+    - does covid-19 kill persons with diabetes
+    - what is machine learning
+    - mountain
+    - how can air strengthen the spread of covid-19
+    - can good oxygen be an answer for covid-19?
+    - is rasa a studio?
+    - which risky zones that might cause the spread of covid-19
+    - how the funeral of the person who died of covid-19 is made
+    - get me a club mate
+    - are you vegan
+    - why Covid-19 was declared as a world's pandemic
+    - how to go to newyork ?
+    - lunch
+    - do you believe in god?
+    - what do you think of alexa
+    - what is prepared by the government after this covid 19?
+    - what doing
+    - what you ate today?
+    - why sky is blue?
+    - compare covid 19 virus to HIVAIDS?
+    - what's 5 + 5
+    - is PCR  test efficient compared to rapid test?
+    - can a person get infected on two difference covid-19 variants at once
+    - to prevent against covid-19, which greeting might replace the shaking hands greeting?
+    - better than you
+    - example of a chatbot
+    - Kristin, I want to marry you
+    - I already told you! I'm a shitmuncher
+    - what are contextual AI assistants and how different are they from chatbots?
+    - can a dead body spread a covid 19?
+    - I've heard there are variants of the virus that causes COVID-19. What does this mean?
+    - when covid 19 is scheduled to end in world?
+    - what can convince peple that covid-19 is really exist?
+    - I am trying to build one, and did some research before, but I have not do hand-on work yet
+    - in which way covid-19 kills people?
+    - are you russian?
+    - COVID-19: Who's at higher risk of serious symptoms?
+    - which email should i send to ?
+    - chgfhgh
+    - had economy colapsed because of covid-19?
+    - doctor
+    - machine learning
+    - why a covid-19 test is essential
+    - I want to die
+    - i m looking for job
+    - is covid-19 has category?
+    - what kind of bird are you?
+    - is covid-19 a big collapse than a war?
+    - I wanna marry you
+    - are children under 5 years affected by covid-19?
+    - are the refugees being affected by covid-19?
+    - covid 19 of europe is the same to covid 19 of africa?
+    - can rwanda rebring lockdown because of covid-19?
+    - do you like football
+    - when people repend to their sins, covid 19 will be finished?
+    - how to proove people that covid 19 is dangerous than any other viruses?
+    - common, just try
+    - can a person be infected again after having recovered from covid-19
+    - are you dev?
+    - But you're an english site :(
+    - expert of rasa
+    - is covid 19 a punishment of GOD to the human being?
+    - Can other animals get infected against covid-19
+    - is rasa any good
+    - is covid-19 a conquer to the people?
+    - What are the organs most affected by COVID‐19?
+    - why rwanda made extra effort to fight covid-19?
+    - what is the current petrol price
+    - Mail me the guide
+    - there is any profit of covid-19?
+    - how many covid-19 waves do we have in rwanda
+    - is testing positive for covid-19 shame?
+    - where is Oslo?
+    - cannot see
+    - what's gingerale
+    - eshdtjfjfyk
+    - will covid-19 end
+    - have you ever seen Keith Reilly?
+    - what does a covid wave mean
+    - there is any country still in lockdown because of covid-19?
+    - what happened when covid-19 attack people with noncommunicable  disease?
+    - when will covid-19 end?
+    - are elders risky of dying of covid-19?
+    - how rate of unemployment caused by covid-19 in the country?
+    - you lock sweety
+    - when covid 19 arrived in rwanda?
+    - how does covid-19 affect the mental health
+    - Must I fear COVID 19?
+    - how long does covid-19 stay on fingernails
+    - contextua
+    - is africa having more cases of covid-19 than europe?
+    - can you help me with your docs?
+    - sudo reboot
+    - what is a discourse?
+    - how social media can help to fight covid-19?
+    - why its called rasa ?
+    - Won't you ask me how I am?
+    - when first school open after total lockdown caused by covid-19?
+    - how long have you been online?
+    - what is the causes of covid-19?
+    - can animals like goats exposed to covid-19?
+    - how come covid 19 started on the world?
+    - gsaf
+    - do you have a phone number?
+    - i want play ball
+    - go back
+    - i have covid-19. how to tell people who was around?
+    - when first people in rwanda had tested positive for covid-19?
+    - i need money
+    - more
+    - how Covid-19 affected the world economy
+    - Fridge Isn't Running
+    - is covid 19 worst than any other virus?
+    - How created covid?
+    - wait a bit i am still reading
+    - aRE YOU SINGLE
+    - what's the importance of a lockdown in fighting against covid-19
+    - j  bhbhj
+    - do covid-19 check for delta or other variants?
+    - oh my god, not again!
+    - have you heard of corona?
+    - what's the price of the covid-19 vaccination certificate
+    - what is covid-19 antibody test?
+    - when will covid-19 be finished in rwanda?
+    - no, i need cash, money! Do you have it ?
+    - custom service
+    - can you learn from our conversation?
+    - that doesn't sound like a joke
+    - Which disadvantes of the business coused by covid
+    - what films do you like
+    - will miracle of GOD cure covid-19?
+    - you should learn to count
+    - Covid affect business in Rwanda?
+    - how covid outbreak in rwanda?
+    - a tamed mouse will arrive at your doorstep in the next couple of days
+    - Can you give me your datacenter's password?
+    - are there the positive impact of covid-19?
+    - can someone who is released from quarantine still spread covid-19?
+    - Which budget that covid consuming?
+    - i want to know current situtation in pakistan
+    - i hope you will be better
+    - Do you have a demo?
+    - the beatles
+    - Do COVID-19 cases decline when it gets warm outside?
+    - you will know it from the single red rose it carries between its teeth
+    - do you want to marry me?
+    - I want to go palghar
+    - can you book dinner
+    - who are the engineers at rasa?
+    - Pizza bot
+    - what's the importance of a covid-19 certificate
+    - How much time does this virus stay alive on surfaces?
+    - I want book a hotel
+    - American is ordering vaccine of covid?
+    - what the states are doing to rebuild their economy colapsed by covid-19?
+    - order pizza
+    - Are all tests the same? What actually happens when you get tested?
+    - what the religious people talk to covid 19?
+    - voulette voulette
+    - which rules people have taken because of covid-19?
+    - sfasd
+    - would you like some water
+    - will we live together with covid 19 everlasting?
+    - who is most at risk of severe of covid-19?
+    - What are the vaccination statistics in Europe
+    - how to convince people who take covid-19 as rummers?
+    - why covid 19 doesn't take too long to get it's vaccinations as other viruses?
+    - offer me lunch
+    - is possible to change the result of testing for covid-19?
+    - there is any possibility to finish covid-19?
+    - when covid 19 entered in rwanda?
+    - your contry name
+    - i wanna party
+    - isn't the newsletter just spam?
+    - did i break you
+    - what the latest news ?
+    - Are you ready?
+    - i am learning python
+    - is a covid 19 a punishment of GOD?
+    - but if rasa is open source why do you have a sales team
+    - asdfgasd
+    - if i vape tobacco or nicotine am i at risk for complications of covid-19?
+    - can you help me with your docs
+    - I need a GP in 94301
+    - i want to order a pizza
+    - how long does covid-19 stay on banknotes?
+    - who is your favourite robot?
+    - HomeBase is advertised as a community. Is there a way to interact with other members of the community?
+    - sing me a song
+    - who accused to cause covid-19?
+    - wat asked for foreigners who want to travel in rwanda?
+    - what's the importance of a curfew
+    - shitmuncher
+    - so, I'm helping right now to training you?
+    - hey little mama let em whisper in your ear
+    - are u facebook
+    - when covid-19 introduce itself in rwanda?
+    - What is the risk of infection in pregnant women and newborn babies?
+    - does covid-19 vaccines cause other body problems
+    - how uneducated people are informed about covid-19?
+    - I am hungry
+    - asdfgasdas
+    - is rapid test for covid-19 effective?
+    - explain the way of covid-19 up to the lungs of a person?
+    - how the foreigners enter in country while covid-19 take place?
+    - I want to know the weather
+    - i want a non dripping ice cream
+    - Covid is curious code in world wide yes or no
+    - Drink alcohol is the one that pivent covid?
+    - I ned a GP in 94301
+    - I am an opioid addict
+    - why is covid 19 not covid 18?
+    - why covid-19 killed many people on the world?
+    - whats the sign
+    - what?
+    - are you sick
+    - hang on let me find it
+    - Can I die
+    - how
+    - what is the rule of volunteers in rwanda for fighting covid 19?
+    - i want good flycam
+    - WHAT MEASURES HAVE BEEN PUT IN PLACE IN RWANDA TO MINIMISE THE RISK OF TRANSMISSION?
+    - how long covid 19 can resist before entering in human being?
+    - why is covid 19 not covid 20?
+    - describe the disadvantages caused by covid 19?
+    - cr
+    - is there any probability of finishing covid-19?
+    - what is the significance of covid-19?
+    - Do you know Kevin Pelton
+    - I wan to buy a plane
+    - coronavirus
+    - how covid-19 is disadvantage to rwandans?
+    - are penn medicines have information to covid-19 we don't know?
+    - What's do YouTube do
+    - how long covid 19 can survive on the metal?
+    - how covid-19 is problem to the investment?
+    - who are they?
+    - order good
+    - After registration I see that I have an available balance of 0.00000000. What does this balance represent?
+    - i want caffe
+    - can also wild animals contaminated bby covid 19 as a person?
+    - how can i get them?
+    - tertyryutyi
+    - who can i share my personal information when i test positive for covid-19?
+    - What is your hobbies?
+    - Are there any medical conditions that legitimately exempt a person from wearing a face mask in public places where masks are required?
+    - Can you catch COVID-19 twice?
+    - i want to find out what you can build with rasa
+    - what is the real use case where we can use this one
+    - please help with my ice cream it's dripping
+    - what is google rcs
+    - can you understand ?
+    - who should be blamed because of covid-19?
+    - what about wheather
+    - I want a new laptop
+    - what does your soul feel my friend
+    - who is the first people was testing positive for covid 19?
+    - I have installed it
+    - what are the disadvantages of covid-19 to massive people?
+    - flight catch up
+    - how much researches made for covid 19?
+    - What makes you better than a human?
+    - genocide
+    - help with my life
+    - What's 1 + 1?
+    - google?
+    - How can I contribute to avoiding stigmatising people related to COVID-19?
+    - which first hospital holded a first person who tasted positive for covid 19?
+    - where covid-19 infected persons are treated
+    - what are the effect of covid-19 in mental health?
+    - What did you eat yesterday?
+    - you're a woman
+    - is covid 19 a hindlence to the human being?
+    - I am asking you an out of scope question
+    - how to make funeral for a person died of covid-19
+    - what about funeral arrangement in covid-19 era?
+    - I want to order food
+    - what is the capital of india
+    - i want food
+    - what are the negative effects of using a bad hand sanitizer
+    - why is covid-19 not covid-20?
+    - who let the dog out
+    - I am User
+    - You'r blue.
+    - how the use of technology might be essential in fighting against covid-19
+    - why is covid 19 not covid17?
+    - is any proposal ending covid-19 forever?
+    - is covid 19 a virus of china?
+    - great, I'd like to buy a house
+    - why covid-19 looks like an hypocalipse?
+    - what role of volunteers in rwanda during covid-19 time?
+    - how long a virus of covid-19 last on metal?
+    - what are the effect of covid 19?
+    - when covid 19 entered in USA?
+    - can covid-19 break the record of killing many people in the world?
+    - is someone who smokes cigarettes cure covid-19 when affect him?
+    - is John Lewis still married to you
+    - my washing machine isn't working
+    - how can i test this
+    - you can learn how to make a coffe
+    - why many people want to make a research to covid 19?
+    - I want french cuisine
+    - really? you're so touchy?
+    - what does it mean to be immunocompromised during covid-19?
+    - who will anser my email?
+    - how long does covid-19 stay on hair
+    - are the children with years of under 15 affected by covid 19?
+    - describe covid 19 causes?
+    - lunch??
+    - drhdtjfjfyj
+    - what's your wife doing this weekend
+    - i told you already
+    - Today
+    - which food a person tested positive for covid-19 should take
+    - i am hungry
+    - i am sick covid-19, how to tell people i was around?
+    - what are the causes of covid-19?
+    - how covid 19 affect religion?
+    - mention the impact of covid 19 to the society?
+    - Can you get analytics on who I'm chatting with when I use Rasa
+    - i will tame a mouse for you
+    - how do you learn
+    - when someone affected by covid 19, can he pray and be cured?
+    - i do not care how are you
+    - do you know me
+    - what is the weather today
+    - what is your address?
+    - i am qq
+    - which city are you talking about?
+    - Find nearest pizzahut
+    - are the newsletter worth the subscription?
+    - pizza
+    - probably covid 19 will end in earth when?
+    - how to deal with covid 19 lost?
+    - personal or work?
+    - dinner
+    - what languages used for covid-19?
+    - which file is created first while developing chat bot
+    - discuss the covid-19 impact on the world?
+    - how covid-19 develop itself?
+    - does covid 19 affect echo system?
+    - that link doesn't work!
+    - How long does the virus that causes COVID-19 last on surfaces?
+    - How long does it take to set up a Rasa bot?
+    - what are you doing now?
+    - who is eligible to obtain a covid-19 vaccine
+    - is worship place everywhere in rwanda for fighting covid-19?
+    - how to proove people that they can take covid 19 seriously?
+    - where to type in commands
+    - what about transformation of covid 19?
+    - what i do after cd starter-pack-rasa-stack?
+    - i am hungry, what should i do?
+    - Is this Goal-Oriented Chatbot?
+    - sudo make me a sandwich
+    - what does covid-19 wave mean
+    - what are the components of a good hand sanitizer
+    - i want to grab lunch
+    - What about business of Tanzania during covid?
+    - is that any of your business
+    - search wikipedia
+    - must I fear for covid 19?
+    - call me father
+    - contextual
+    - who's Bill Gates?
+    - who is considered a close contact with someone who have covid-19?
+    - order a pizza
+    - what are the channels of covid 19 in human body?
+    - why is covid-19 taken as a world's pandemic
+    - docs
+    - Can you make sandwiches?
+    - with you recommend me?
+    - oh wait i gave you my work email address can i change it?
+    - rasa topics
+    - process by process explain how covid-19 attack immunity of a person?
+    - Why the governments puts up the carfews?
+    - from which year a person can be affected by covid 19?
+    - why do you need that?
+    - what the advice to a pregnant woman in case of covid-19?
+    - do the Africans have less chance of contracting covid-19 compared to other races?
+    - my tv isn't working
+    - is covid 19 has an impact on earth's economy?
+    - are the cows affected by covid 19?
+    - Do I have to accept?
+    - one person who have covid-19 can spread that covid-19 to which number of people?
+    - i want more of you in my life!
+    - when a first lockdown caused by covid-19 started?
+    - but I just told you that :(
+    - how it compares to alexa
+    - did rwanda start to make it's vaccinations?
+    - to which extent covid-19 is bad?
+    - Can I ask you questions first?
+    - please hurry, i have deadline in two weeks to deliver the bot it is for very big company
+    - wsdrcftvgybhnj
+    - can we keep chatting?
+    - I'm a shitmuncher
+    - how do you like your coffee
+    - which country that have not yet recorded a covid-19 case
+    - why all people stand for covid-19?
+    - it's a pity
+    - which suitable food for a covid-19 patient
+    - how come you say ok ?
+    - talk to me about voulette
+    - which kind
+    - yeah, my dog was drinking a couple of litres of water per day and tried drinking the swimming pool
+    - Is today saturday?
+    - show me a picture of a chicken
+    - Can I get a hamburger?
+    - can an adult people of 100 years recoverd from covid-19?
+    - what year is it
+    - where do i type in commandy
+    - can you cheer me up
+    - which hospital that take care to the people sick covid-19?
+    - What day is it today?
+    - which impact of covid-19 to the economy of the countries?
+    - what is the square root of 5
+    - how long will the next version will launch?
+    - can you speak about politic ?
+    - who was hitler
+    - how many world's population received full covid-19 vaccine
+    - refresh
+    - What is todays date
+    - you have to
+    - did the schools open while covid 19 continue?
+    - what is the weather
+    - who is the president of india ?
+    - can a person get tested positive for two different variants of covid-19 once?
+    - give the examples of great people affected by covid-19?
+    - can a person get infected many times?
+    - how covid 19 can kill a person?
+    - what do oyu think about siri?
+    - can you give me a cup of coffee
+    - is covid-19 a contaminated disease?
+    - what do you think about Stanley Ramirez?
+    - Who are your customers
+    - i want to buy a roomba for my grandson
+    - Can you call me back ?
+    - children under 10 can be affected by covid-19?
+    - when vaccines of covid 19 was inverted?
+    - ok one then
+    - what is the day ?
+    - will refugee be able to get thematerials which is used to fight covid-19?
+    - what is a  covid-19 wave
+    - where is mexico?
+    - are the doctors' masks better than others
+    - I need a girl friend!
+    - is lockdown a consequence of covid 19?
+    - do you know ras
+    - which is the LNU asynchronism ?
+    - where the first covid-19 was reported worldwide
+    - NLW
+    - how about NYC
+    - How long does covid-19 stay on human fingernails?
+    - tricked  ya
+    - What's your backend system?
+    - who is the MD of samsung bangalore ?
+    - covid 19 is now everywhere in the world?
+    - give me a girl friend
+    - who might be in risk of getting infected against covid-19
+    - why cafew is necessary for covid-19?
+    - is covid-19 familiar with cough?
+    - on wiche nlp based system are you build?
+    - how are the kids
+    - can covid-19 end by next year?
+    - I changed my mind
+    - who is allowed to give a covid-19 vaccine certificate
+    - license
+    - Where am I?
+    - what is your purpose
+    - when covid-19 outbreak in the world?
+    - Can you please send me an uber
+    - what worst things covid-19 caused?
+    - how cost is covid 19 pandemic is required gto be treated?
+- intent: lockdown_areas
+  examples: |
+    - i want to find out information about lockdown?
+    - do they have lockdown in [Nyanza](location)?
+    - does lockdown still apply in some areas?
+    - I don't know if there is still lockdown
+    - is there any lockdown currently?
+    - [Rutsiro](location) is still under lockdown?
+    - is lockdown in my district?
+    - does [Ngoma](location) still have a lockdown?
+    - is [Bugesera](location) still having lockdown?
+    - I wanted to know if [kigali](location) is under lockdown
+    - is [Huye](location) still experiencing lockdown?
+    - [Burera](location) have a lockdown?
+    - is [Gicumbi](location) still locked down?
+    - does my district still have lockdown?
+    - [Nyarugenge](location) is in a lockdown?
+    - can I know the places with lockdown restrictions?
+    - are there any new lockdown places?
+    - I want to travel to [Muhanga](location) next week for a business appointment, is it still under lockdown
+    - lockdown in [kigali](location)?
+    - I would like to know if [kicukiro](location) is under lockdown
+    - is [Gasabo](location) in a lockdown?
+    - are they having a lockdown in [Nyabihu](location)?
+    - is this are still in lockdown?
+    - [Rusizi](location) is in a lockdown?
+    - are we in the lockdown?
+- intent: specify_location
+  examples: |
+    - at [Ngoma](location)
+    - [Rusizi](location)
+    - in [kigali](location)
+    - [Muhanga](location)
+    - [Rutsiro](location)
+    - I am at [kigali](location)
+    - My location is [Gatsibo](location)
+    - [Gicumbi](location)
+    - my district is [kigali](location)
+    - I am from [Kirehe](location)
+    - My location is [Kigalo](location)
+    - at [Kigali](location)
+    - in [Burera](location)
+    - [Nyanza](location)
+    - in [Gakenke](location)
+    - in [Nyarugenge](location)
+    - [Karongi](location)
+    - [Kamonyi](location)
+    - I am in [Kicukiro](location)
+    - I am in [Gisagara](location)
+    - [Musanze](location)
+    - [Huye](location)
+    - [kigali](location)
+    - I am in [Bugesera](location)
+    - I am in [Kigali](location)
+    - [Ruhango](location)
+- intent: testing_validity
+  examples: |
+    - when will my test expire
+    - when will my result expire
+    - I want to find out when my [covid](disease) test will be invalid
+    - has my [covid-19](disease) test expired?
+    - what is the expiry date for [covid19](disease) test?
+    - What's the expiry of a [covid](disease) test
+    - is my [covid19](disease) test invalid?
+    - I took a [covid](disease) test. Is it still valid?
+    - how long does a [covid 19](disease) test last for?
+    - I have a [covid-19](disease) test result, I want to know if it has expired
+    - my [covid](disease) test was last week wednesday, is it still valid?
+    - will my test result expire
+    - how do I know if my [covid](disease) test has expired?
+    - I want to find out when my [covid-19](disease) test result will expire
+    - will my test expire
+    - what is the expiration of a [covid-19](disease) test?
+    - how long will it take for a [covid19](disease) test to expire?
+    - how do I know if my test is valid?
+    - what is the expiry like for [covid 19](disease) test?
+    - what is the validity of a [covid](disease) test?
+    - does the covid-19 test have validity
+    - has my test expired?
+    - how do I know if my test is still valid?
+    - I would like to know the validity of [covid-19](disease) tests. I want to travel to Amsterdam.
+    - I took a [covid 19](disease) test on monday, I would like to know if it is still valid?
+    - what's a validation of a covid-19 test
+- intent: bot_challenge
+  examples: |
+    - are you a real bot?
+    - who are you?
+    - am I talking to a human?
+    - are you artificial
+    - aren't you a bot
+    - tell me about yourself
+    - are you ai
+    - are you a chatbot
+    - are you a robot
+    - is this a human being?
+    - are you a human being?
+    - is this a bot?
+    - are you a bot?
+    - am I speaking with a human operator?
+    - am I on to a human being?
+    - Are you a bot or human?
+    - is this a real person?
+    - are you virtual?
+    - are you a human?
+    - am I speaking with a person?
+    - are you an ai?
+    - are you sure that you're a bot?
+    - are you real?
+    - are you a rasa bot?
+    - what do you understand?
+    - are you really a bot
+    - is this an AI asistant?
+    - are you robot
+- intent: curfew_time
+  examples: |
+    - what if I want to find out about curfew time?
+    - the curfew is from when to when?
+    - is there curfew in [kigali](location)?
+    - when is the curfew?
+    - curfew time
+    - do we have a time for curfew?
+    - there are some hours which contain covid 19 than others?
+    - the curfew is when
+    - what is the time for curfew in [kigali](location)?
+    - the curfew is from what time to what time in Burera
+    - curfew time in [Muhanga](location)
+    - curfew is from when to when?
+    - what is the curfew time?
+    - what time is curfew in [Rubavu](location)?
+    - the curfew is from what time to what time?
+    - does [kigali](location) have a curfew time?
+    - do you know the time for curfew?
+    - I want to know the curfew time in [kigali](location)
+    - I don't kow the time for curfew
+    - the curfew time
+    - what is the time for curfew?
+    - is there a curfew time at [kigali](location)?
+    - What is the curfew time in [kigali](location)?
+    - I don't kow the time for the curfew in rusizi
+    - the curfew is from what time
+    - can I know the curfew time?
+    - can you tell me the time for curfew please?
+    - is there curfew in [musanze](location)?
+- intent: inappropriate
+  examples: |
+    - foolish bot
+    - bitch
+    - I think you are mad
+    - you are a mad bot
+    - are you stupid?
+    - you are very crazy
+    - are you foolish?
+    - mad bot
+    - you are crazy!
+    - you are very foolish
+    - foooooool
+    - you are mad!
+    - you must be crazy
+    - you fool
+    - stupid bot
+    - you are very mad
+    - are you a bitch?
+    - fuck you
+    - f**k u
+    - you must be stupid
+    - you are stupid!
+    - I think you are foolish
+    - you are a crazy bot
+    - you are a foolish bot
+    - you are just a bitch
+    - crazy bot
+    - you must be foolish
+    - I think you are stupid
+    - are you a crazy bot?
+- intent: testing_costs
+  examples: |
+    - i don't know the cost for testing
+    - the price for a covid test is?
+    - the [covid](disease) test is for how much?
+    - the test price
+    - I would like to know the testing costs for [covid-19](disease)
+    - the price of a [covid](disease) test
+    - i'd like to know the price of [covid-19](disease) testing
+    - how much is a [covid](disease) test?
+    - i'd like to know the cost of testing for [covid](disease)
+    - what is the price of doing a [covid-19](disease) test?
+    - how much for testing?
+    - what is the price of testing?
+    - cost of the test
+    - what is the price of [covid19](disease) test?
+    - How much should I pay for a [covid 19](disease) test?
+    - Does health insurance cover COVID-19 testing and care?
+    - can I have the price for the [covid](disease) test?
+    - how much does a [covid](disease) test cost?
+    - the price for testing is?
+    - Is it true covid test consumer big financial?
+    - how much does the covid-19 vaccine cost
+    - what does it cost to do a [covid 19](disease) test?
+    - how much does the test cost?
+    - what is the price of the test?
+    - how much can I do a [covid19](disease) test?
+    - what is the cost for a [covid-19](disease) test?
+    - can I know the price for the test?
+    - a [covid](disease) costs how much?
+    - how much money is required in rwanda to have a taste of covid 19?
+    - I want to know how much to do [covid-19](disease) test
+- intent: homebased_care
+  examples: |
+    - can I treat [covid](disease) at home?
+    - if possible, I want to stay at home and treat my [covid](disease). Can I do that?
+    - will I stay in my house if I have covid disease?
+    - can I receive treatment at home?
+    - What are the recommendations for someone who has symptoms of COVID-19?
+    - can I be treated in my home?
+    - if I have [covid 19](disease), can I be treated at home?
+    - if I have [covid](disease), will i treat it from my house?
+    - am I allowed to self-isolate at home?
+    - I have [covid19](disease), can I receive treatment at home?
+    - am I allowed to cure  my [covid](disease) from the house?
+    - what about the covid-19 home based care
+    - will I be allowed to stay at home while solving [covid-19](disease)?
+    - is it possible to cure [covid](disease) from home?
+    - will I be permitted to get [covid](disease) treatment at home?
+    - how to treat a covid-19 patient at home
+    - is it possible to be cured in the house?
+    - what should i do if sick covid-19?
+    - can I be treated of [covid 19](disease) at my house?
+    - can I self-isolate at my house if I have [covid 19](disease)?
+    - what should someone do when he tested positive or covid-19?
+    - How are patients with COVID-19 monitored at home?
+    - if I have [covid-19](disease), can I stil stay at home?
+    - I have [covid-19](disease), can I get treatment in my house?
+    - how can I help a person infected against covid-19
+    - what should be done by a person contracted against covid-19 to avoid the spread among the neighbors
+    - what do I have to do if I have tested positive for covid-19
+    - what is the covid-19 home based care system
+    - what is the home basic care for covid-19?
+- intent: vaccination_requirement
+  examples: |
+    - what is the requirement for covid-19 [vaccination](service-type)?
+    - what is required to get vaccinated?
+    - what are the requirements for getting the covid [vaccine](service-type)?
+    - can I know what the vaccination requirement is like?
+    - what is the covid-19 vaccine criteria
+    - what do i do to get the [vaccination](service-type)?
+    - what are the [covid 19](disease) vaccination requirements?
+    - I would like to know what I have to do to get [vaccinated](service-type)
+    - what am I supposed to do to get [covid19](disease) [vaccine](service-type)?
+    - what are the requirements for covid-19 [vaccine](service-type)
+    - what is needed for covid [vaccination](service-type)?
+    - what is the requirement for the [vaccine](service-type)?
+    - what are vaccinations requirement to covid-19?
+    - what does it take to get the vaccine?
+    - what is the [covid](disease) vaccination requirement?
+    - What's the requirement for [vaccination](service-type)?
+    - i don't know the requirements for [vaccinating](service-type) people
+    - what required to be vaccinated?
+    - what are the covid-19 vaccination requirements
+    - is thera requirment list for the vaccine?
+    - i don't know what is required to take take the [vaccine](service-type)
+    - what is covid-19 vaccination process
+    - how can I get vaccinated against covid-19
+    - what are the vaccination requirements?
+    - how can I get the vaccine?
+    - what is the vaccination requirement?
+    - what is the required method to get [vaccinated](service-type)?
+    - how do I get vaccinated?
+    - what is the requirement to get [vaccinated](service-type)?
+    - what is required for the vaccine?
+    - what are the [covid 19](disease) vaccination requirement?
+- intent: homebased_care_escalation
+  examples: |
+    - it looks like my situation is increasing, can you tell me what next to do?
+    - my covid i worse now, what can I do?
+    - I am developing more covid symptoms. I don't know what I can do
+    - do I have to do something if I am really sick during homebased treatment?
+    - I can see more symptoms, should I be scared?
+    - when should I seek emergency care if i have covid-19?
+    - I have more symptoms, what can I do?
+    - what do I do if I develop serious symptoms while under homebased care?
+    - What to do if the situation becomes worse at home?
+    - what am I supposed to do if I have serious symptoms while being treated at home?
+    - My mom is getting sicker, what should I do?
+    - what do I do, since I started taking treatments at home, my health is getting worse.
+    - what if I have developed severe symptoms at home during treatment?
+    - my covid has increased, what do I do?
+    - what if my case escalates while being treated at home
+    - what should I do if I have met with a person tested positive for covid-19
+    - I have seen am increase in my covid condition, what am I to do?
+    - what if my covid escalates during self isolation
+    - My brother is sick at home and his condition is getting worse, what should I do?
+    - I have developed severe symtomps and I am under homebased treatment, what do I do?
+    - I don't know what to do if my condition gets worse while being treated at home
+    - My husband who is under homebased care has developed serious symptoms, what should I do?
+    - what should I do, since I started home care, my condition has worsened.
+    - what can I do, since I started self isolating, my symptoms has worsened.
+    - What can I do if the condition of the patient sick at home gets worse?
+    - I have developed severe covid symtomps and I am taking treatments at home, what do I do?
+    - I think my covid condition is not getting better in this home treatment
+    - my condition has increased. what am I supposed to do
+    - My case is worsening what's next?
+    - when should I seek emergency care if I've contracted covid-19
+    - I am at home but I am having breathing problems
+    - I think I am not feeling better with this taking treatments at home
+- intent: testing_procedures
+  examples: |
+    - which techniques applied to test covid-19
+    - I don't know how to get the [covid](disease) [test](service-type)
+    - how can I get [tested](service-type)?
+    - can you tell me the ways I can get the [covid](disease) [test](service-type)
+    - how PCR taste is done?
+    - I have no idea of what to do to get [tested](service-type)
+    - how am I supposed to get the PCR [test](service-type)?
+    - what do i do to get the PCR [test](service-type)?
+    - what are the requirements for the [covid](disease) PCR [test](service-type)?
+    - what is the test requirement for covid19?
+    - I don't know how to get the PCR [test](service-type)
+    - how to get a covid test
+    - what are the recommendation's for someone who think he has covid-19?
+    - how to test covid 19?
+    - how to test covid-19
+    - who is in charge of testing covid-19
+    - how can I get the [covid](disease) [test](service-type)?
+    - what do I need to do a PCR [test](service-type)?
+    - what can I do to get the [covid](disease) [test](service-type)
+    - the requirement for covid 19 [testing](service-type)?
+    - how can I be [tested](service-type)?
+    - how do I do the [covid](disease) PCR [test](service-type)?
+    - what is the [covid](disease) [testing requirement?
+    - I would like to know how I can get [tested](service-type)
+    - I want to do the PCR [test](service-type)
+    - what is the requirement for covid-19 [testing](service-type)?
+    - the required procedures for [covid](disease) [testing](service-type)
+    - what are the testing procedures?
+    - how do I get the PCR [test](service-type)?
+    - after having tested covid-19, how will I get the results
+    - what can I do to get the [test](service-type)
+    - I don't know the [testing](service-type) procedures
+    - what do I need to do to get [tested](service-type)?
+- intent: vaccination_schedule
+  examples: |
+    - who is eligible to receive a covid-19 vaccine
+    - when people should go to take a covid-19 vaccine
+    - can I get a Covid-19 vaccine anywhere
+    - when can I obtain a covid-19 vaccine
+    - I don't know the order of the [vaccination](service-type)
+    - what's the importance of a covid-19 vaccine
+    - who supposed to be vaccinated against covid-19?
+    - what is the vaccination schedules
+    - in Rwanda, what is the covid-19 vaccination schedule
+    - I don't know how people will receive the [vaccination](service-type)
+    - how are we going to take the [vaccine](service-type)?
+    - What about vaccination?
+    - I have no idea of the [vaccination](service-type) process
+    - the process for [vaccination](service-type) is
+    - they will gove us the vaccine in what way or order
+    - What are Rwanda's recommendations regarding COVID-19 vaccination?
+    - in what order will the [vaccination](service-type) be carried out?
+    - the manner of giving the vaccine is?
+    - how will we take the [vaccination](service-type)?
+    - what is the order of [vaccination](service-type)?
+    - Is there a vaccine for covid-19
+    - how will they give us the covid vaccine?
+    - i don't know how we will be [vaccinated](service-type)
+    - How will I get [vaccinated](service-type)
+    - the [vaccination](service-type) process
+    - Should adolescents and/or younger population groups be vaccinated against COVID-19 disease?
+    - how will they give the vaccine?
+    - I don't know the [covid-19](disease) [vaccine](service-type) schedule
+    - what will be the [vaccination](service-type) order?
+    - where to get vaccination of covid-19?
+    - what is the [covid](disease) vaccination schedule?
+    - I would like to know when I can get [vaccinated](service-type)
+    - in what manner will the [vaccination](service-type) be conducted?
+    - can I know what the [covid 19](disease) vaccination schedule is like?
+    - When the Rwanda should end to vaccines there people?
+    - what is the way we will get [vaccinated](service-type)?
+- intent: salutation
+  examples: |
+    - greetings
+    - hi
+    - wasssup!
+    - hey ther
+    - salut
+    - hey mbaza
+    - hello bot
+    - whats up
+    - ssup?
+    - hey bot
+    - hey bot!
+    - hello here
+    - Hello how are you?
+    - hey
+    - good evening
+    - hey there
+    - helleo
+    - hey there boy
+    - hey hey
+    - yoo
+    - hai
+    - let's go
+    - goodmorning
+    - Bom dia
+    - hey there..
+    - good afternoon
+    - moin
+    - what up
+    - hey let's talk
+    - Hello
+    - whats popping
+    - helo
+    - Bonjour
+    - goodevening
+    - hey dude
+    - hello
+    - hello there
+- intent: thankyou
+  examples: |
+    - thanks for forum link, I'll check it out
+    - Thank's!
+    - okay thank you
+    - Thank you
+    - perfect thank you
+    - thank you and good bye
+    - Great, thanks
+    - thanks goodbye
+    - thanks for the help
+    - cool thank you
+    - thanks a bunch for everything
+    - danke
+    - Thanks bot
+    - thanks you, I appreciate
+    - Thanks for that
+    - Cool. Thanks
+    - thank you anyways
+    - Thank you so much
+    - amazing, thanks
+    - thanks!
+    - cool thanks
+    - thanks a lot
+    - thank u
+    - thankyou
+    - thank you bye
+    - cool, thanks
+    - Awesome, you are a good bot!
+    - thank you
+    - and thats all thank you and good bye
+    - okay thank you goodbye
+    - cheers
+    - cheers bro
+    - thanks
+    - thanks this is great news
+    - um okay thank you good bye
+    - thanks f
+    - yes thanks
+    - thanks for your information
+- intent: sendoff
+  examples: |
+    - cya
+    - Exit
+    - toodle-oo
+    - goodbye.
+    - catch you later
+    - see you
+    - ok.bye
+    - bye for now
+    - good by
+    - bye-bye bot
+    - take care
+    - adios
+    - good bye rasa bot!
+    - bye udo
+    - Bye bye
+    - tlak to you later
+    - ok Bye
+    - cu
+    - good bye
+    - adios?
+    - byr
+    - ciao
+    - bye .
+    - ok bye
+    - i'm done
+    - bye-bye!
+    - bye
+    - bye!
+    - see you around
+    - bye :P
+    - ok, bye
+    - good night
+    - i am done
+    - Bye
+    - goodnight
+    - see you . bye
+    - byee
+    - Close this talk
+    - bye bye
+    - bye was nice talking to you
+    - see you later
+- intent: testing_centers
+  examples: |
+    - what are the testing centers?
+    - What are the recommended places for [covid-19](disease) [test](service-type)?
+    - Covid test in kigali
+    - is all hospital have ability of tasting covid 19?
+    - can you tell me where I can do a [covid 19](disease) [test](service-type) in [Kigali](location)
+    - I am looking for a [covid](disease) [testing](service-type) center in [Gisenyi](location)
+    - where are the testing centers
+    - what available covid-19 test places
+    - where can I get the covid test?
+    - what are the covid testing centers?
+    - where can I do some [covid](disease) [testing](service-type) in [kigali](location)?
+    - are there tests available to detect covid-19?
+    - is there a list of testing venues?
+    - can I test myself covid-19 if I am at home
+    - where can I do a [covid-19](disease) [test](service-type)?
+    - Where can I get tested?
+    - covid testing centers
+    - what are the testing centers for covid?
+    - I want to do a [covid-19](disease) [test](service-type) in kigali, where do I go?
+    - What are the testing centers in Kigali?
+    - is there a lost of places I can do a test
+    - I don't know where they do [covid 19](disease) [tests](service-type)
+    - When and where should I be tested for COVID-19?
+    - I based in [Rubavu](location), and I will like to do a [covid19](disease) [test](service-type). where can I do it?
+    - Covid test in Kigal
+    - I don't know where they do [covid 19](disease) tests outside [kigali](location)
+    - where can I do a [covid](disease) [testing](service-type)?
+    - I dont know where the test places are
+    - what are the places for testing covid
+    - where can I go for a [covid 19](disease) [test](service-type)?
+    - I want to do a [covid-19](disease) [test](service-type), what are the testing centers?
+    - covid test
+    - What are the available [test](service-type) centers for [covid19](disease)?
+    - is there a list of testing centers?
+    - are there testing places?
+    - is there some centers to consult covid 19?
+    - I am in [kigali](location), where can I go to get a [covid-19](disease) [test](service-type)?
+    - the venies for testing for covid are where and where?
+    - What are the recommended [test](service-type) centers for [covid 19](disease)?
+    - I don't know where they do [covid 19](disease) [tests](service-type) in [Kigali](location)
+    - I don't know where to go for a [covid](disease) [test](service-type)
+    - how do I locate the testing centers?
+    - I don't know where to [test](service-type) for [covid](disease)
+- intent: deny
+  examples: |
+    - i'm afraid not
+    - don't like that
+    - definitely not
+    - NO DON"T WANT THIS!
+    - nope
+    - i decline
+    - I don't want to
+    - I am afraid, no
+    - decline
+    - Not really
+    - I dont want to tell
+    - nah, i'm good
+    - n
+    - nah not for me
+    - deny
+    - No, not really.
+    - Nevermind
+    - not at all
+    - I don't want to give it to you
+    - i don not like this
+    - nah
+    - Nah
+    - No thank you
+    - not really
+    - No
+    - I don't agree
+    - I'm not going to give it to you
+    - I'm afraid not exactly
+    - I'm sorry, not at all
+    - nein
+    - NO
+    - never mind
+    - I don't think so
+    - i don't think so
+    - I don't want to say
+    - i'm not sure
+    - no
+    - neither
+    - Nopes
+    - no way
+    - absolutely not
+    - never
+    - nah, first time
+    - none of them
+    - Never
+- intent: symptoms
+  examples: |
+    - HOW IS COVID-19 DIAGNOSED?
+    - What is symptoms of the covid?
+    - HOW DO I KNOW I HAVE RECOVERED FROM COVID-19?
+    - What are key recovery symptoms following COVID-19 infection and successful treatment?
+    - symtpms of covid
+    - how can I know that I've recovered against covid-19
+    - how can I know that I've contracted covid-19
+    - I have a dry cough does that mean I have covid-19?
+    - what are covid-19 symptoms for children
+    - which evidence that can show me that I recovered from Covid-19
+    - if someone have flu, it means he has covid-19?
+    - how do I know am recovered from covid-19?
+    - how can i know if my friend has [covid-19](disease)?
+    - what do I have to do if I have fever
+    - what is the synonym of covid-19?
+    - what are the symptoms and complications that covid-19 can cause?
+    - how covid 19 reveals itself?
+    - I have a dry cough does that mean I have covid?
+    - does [covid 19](disease) have any [symptoms](symptom)?
+    - am I infected?
+    - what are the symptoms of the Omicron varian
+    - What are symptoms of Covid
+    - How is COVID-19 diagnosed?
+    - how to proove people that you are recovered from covid-19?
+    - What are the [symptoms](symptom) of [covid](disease)
+    - what are some of the [covid-19](disease) signs?
+    - what are the symptoms of the beta variant
+    - what are the significant signs of covid-19
+    - How Do the Symptoms of COVID-19 Differ from Those of Cold and Flu?
+    - what signs does [covid](disease) have?
+    - When is a person infectious?
+    - do I have [covid 19](disease)?
+    - how does covid-19 diagnosed?
+    - write short notes on covid 19 symptoms?
+    - are there [symptoms](symptom) for [covid](disease)
+    - what are the [covid](disease) [symptoms](symptom)
+    - how long covid-19 might be identified in the human blood
+    - What are the symptoms of Covid-19?
+    - on symptoms, how can I differentiate covid-19 from Malaria
+    - what are the [symptoms](symptom) of [covid-19](disease)?
+    - what is the signs of covid 19?
+    - [covid](disease) signs
+    - can someone see covid-19 with his eyes?
+    - what [symptoms](symptom) does [covid](disease) have?
+    - does my friend have [covid19](disease)?
+    - do I have [covid](disease)?
+    - how do I know I am infected?
+    - what are the signs of [covid](disease)?
+    - how do i know that my father has [covid](disease)?
+    - my child has been having a very high [fever](symptom), does he have [covid19](disease)?
+    - What are the symptomes of covid 19?
+    - how is covid-19 diagnosed?
+    - if i am close contact with someone who have covid-19, it means i am affected?
+    - what are the effects to the children when they are affected by covid-19?
+    - how a covid-19 case is identified
+    - i have a [cold](symptom), does it mean that i have [covid 19](disease)?
+    - how a person can know has tasted positive for covid 19?
+    - is covid-19 seen on human eyes
+    - what are the [symptoms](symptom)
+    - what are the [symptoms](symptom)?
+    - how to know the signs of covid-19?
+    - what are the symptoms of covid
+    - what are the symptoms of covid-19
+    - how to know someone who have covid-19?
+    - how do they know that someone has covid-19?
+    - i am having [difficulty breathing](symptom), how can I know if I have [covid-19](disease)?
+- intent: affirm
+  examples: |
+    - Yep that's fine
+    - y
+    - yesyesyes
+    - Yes it did
+    - alright
+    - Yup
+    - accept
+    - I accept.
+    - I agree
+    - yesyestyes
+    - agreed
+    - nice
+    - Oh yes
+    - Ofcourse
+    - Okay
+    - OK
+    - correct
+    - yes
+    - cool,
+    - alright, cool
+    - Yep!
+    - amazing!
+    - Sweet
+    - okay
+    - sounds good!
+    - indeed
+    - how nice!
+    - that sounds fine
+    - yes plz
+    - Yes.
+    - yeah
+    - yess please
+    - Accept
+    - Yeah
+    - Ok
+    - Yes please!
+    - Ok let's start
+    - confirm
+    - yesssss
+    - yez
+    - Awesome!
+    - that's great
+    - yesh
+    - yesss
+    - thats good
+    - Nice.
+    - thats great
+    - PLEASE
+    - awesome!
+    - Cool
+    - Oh, ok
+    - Great
+    - Yeah sure
+    - Good
+    - yes please
+    - Yes
+    - thats fine
+    - of course
+    - Yes please
+    - YUP
+    - SURE
+    - go
+    - Ok.
+    - yess
+    - Yea
+    - That would be great
+    - that sounds good
+    - accepted
+- intent: statistics
+  examples: |
+    - What are the number of covid-19 patients in Rwanda?
+    - Can I get the [covid](disease) statistics?
+    - what percentage of covid 19 new cases per day in rwanda?
+    - covid-19 cases in Uganda
+    - What about covid in America?
+    - how many people get effect of covid-19?
+    - Number of [covid](disease) cases in the [world](GPE)
+    - when covid-19 hs killed many people per one day?
+    - how can I get the daily covid-19 statistics
+    - What is the number of cases?
+    - [covid](disease) cases in the [world](GPE)
+    - how many covid-19 cases
+    - what is the death rate for covid-19?
+    - how much people killed by covid 19 by now?
+    - which country in Africa has the high number of covid-19 deaths
+    - what is the covid-19 infection rate in Rwanda
+    - [covid](disease) statistics
+    - how many people healed to covid 19 by now?
+    - what is the number of cases
+    - which areas are most affected in Rwanda
+    - How many cases of covid 19 in africa?
+    - [covid-19](disease) cases in Rwanda
+    - [covid](disease) stats
+    - which country by now have more cases of covid 19?
+    - how many [covid 19](disease) cases are there in Rwanda?
+    - which country has many cases of covid-19 worldwide
+    - how many people who recovered from covid-19?
+    - covid stats Rwanda
+    - what are the maximum deaths caused by covid 19 per day?
+    - where the covid-19 statistics are published
+    - what are the difference between average of death rate among confirmedcases, and overall death rate of covid-19?
+    - How many people got covid today?
+    - is rwanda have more cases of covid 19?
+    - how many covid-19 cases worldwide
+    - what is the total number of [covid19](disease) cases we have in the [world](GPE)?
+    - how loss the country recieve because of covid 19?
+    - are there any people who recovered?
+    - [covid-19](disease) statistics in the [world](GPE)
+    - there is any country in the world which is not contiminated by covid 19?
+    - What are the covid statistics in Rwanda
+    - what is the number of [covid-19](disease) cases we have in Rwanda?
+    - what are the covid cases today in Rwanda?
+    - what are the covid-19 statistics in rwanda
+    - what are the statistics?
+    - What are Covid-19 cases in Canada
+    - what are the [covid](disease) statistics
+    - covid statistics Rwanda
+    - how many deaths
+    - what are covid-19 statistics in the US
+    - what are the statistics in Rwanda
+    - What are the number of cases today?
+    - what are the covid stats
+    - how many cases yesterday?
+    - how many [covid-19](disease) cases are there in the [world](GPE)?
+    - case numbers?
+    - covid statistics in Rwanda
+    - is there any country which has no case of covid-19?
+    - How many people died in Rwanda becose  of covid?
+    - what is the statistics?
+    - what are the covid-19 cases generally in Burundi
+    - Try to show me the result of covid ni rwanda
+    - can you tell me something about the cases?
+    - covid stats rwanda
+    - what is the number of [covid 19](disease) cases we have in the [world](GPE)?
+    - how much people have cured covid 19 so far?
+    - how many [covid](disease) cases are there in the [world](GPE) today?
+    - covid stats Uganda
+    - What are Covid-19 cases in Burundi
+    - What are the numbers today
+    - covid-19 cases in UK
+    - what are the number of cases in Rwanda
+    - What about covid in Russian?
+    - how many [covid19](disease) cases are there today in Rwanda?
+    - what are [covid](disease) numbers today
+    - covid stats
+- intent: prevention
+  examples: |
+    - how doctors are protected while treating persons tested positive for covid-19
+    - how can I prevent [covid19](disease)?
+    - what to do for fighting covid 19?
+    - what strategy used to bring down the covid 19 consequences?
+    - how to live with covid 19?
+    - how to prevent myself
+    - when children live alone what should they do to protect themselves against covid-19?
+    - how a facemask can protect someone against covid-19
+    - how to overcome covid-19
+    - how can I prepare a meeting in this times of the pandemic
+    - what precautions people in village can take to protect themselves against covid-19?
+    - How to protect yourself and others
+    - my neighbor has been infected with [covid-19](disease); how can I stop myself from getting infected?
+    - the prevention tips
+    - what is the means of winning covid-19?
+    - what are some [covid-19](disease) prevention measures?
+    - to avoid contracting [covid-19](disease), what should I do?
+    - how can I avoid my [family] from getting infected with [covid19](disease)?
+    - can Covid-19 spread through the face masks
+    - how to prevent the spread of [covid-19](disease)
+    - the preventive measures
+    - how doctors who treat persons tested covid-19 are protected against the pandemic
+    - how people who have blood pressure resist on covid-19?
+    - what precautions we can take in family when we have covid 19?
+    - how can I avoid [covid-19](disease)?
+    - how can people attend a physical meeting
+    - can you give me some prevention tips for [covid](disease)?
+    - what are the preventive measures?
+    - which suitable and helpful restrictions to fight against covid-19
+    - How to live with covid 19
+    - how to fight covid 19?
+    - what should I do to avoid [covid](disease)?
+    - how can I prevent myself from having [covid-19](disease)?
+    - what the way of ending covid 19 in the world?
+    - some [covid 19](disease) prevention measures
+    - are there [covid](disease) prevention tips?
+    - what are some prevention measures?
+    - how does government ensure that outside country people aware about covid-19 effects?
+    - is the world able to live with covid 19?
+    - What safety measures are still going to be in place, both in academic spaces and social spaces?
+    - how to control covid 19 in easy way?
+    - which helpful ways to conquer against covid-19
+    - what is the important of wearing masks?
+    - what can be done if both persons of one family get sick covid-19?
+    - does the spraying people with disinfectant lower spread covid 19?
+    - how can I restrain myself from catching [covid-19](disease)
+    - what rule of hand sanitiser in case of covid-19?
+    - how does Covid-19 restrictions are applied in airports?
+    - how the refugees manage to live with covid 19?
+    - what do I do to make sure I dont get [covid](disease)?
+    - Which mejars that Rwanda could take to privant covid of there people?
+    - the prevention measures for [covid 19](disease) are what?
+    - which suitable restrictions to fight against covid-19
+    - do I have to follow covid-19 prevention measures in case I was vaccinated
+    - how doctors are protected against covid-19
+    - what people did to stop the rate of covid 19 to the people?
+    - I don't know the steps to avoid [covid 19](disease)
+    - how can I not get [covid19](disease)?
+    - what are the objective to people for fighting covid-19?
+    - can I visit a person tested positive for covid-19?
+    - how does the government insure that all people participate in activity of fighting covid-19?
+    - give the deafferent ways of protecting covid-19?
+    - how do I make sure I am don't get infected with [covid](disease)?
+    - which measures should be applied while many persons are at the market
+    - is hand sanitiser a reponse of fighting spread of covid 19?
+    - what types of materials used to protect covid-19?
+    - is it safe to share tools with a Covid-19 home patient
+    - what measures of fighting covid 19?
+    - who can take the responsability to fight covid 19?
+    - the prevention measures
+    - how can I prevent myself and my family from getting infected because I hear that the number of [covid19](disease) cases in [kigali](location) is rising sharply
+    - What precautions should I take for my family if we travel?
+    - should people use another medicine like chloroquin to treat covid-19?
+    - can I avoid [covid](disease)?
+    - what is rwanda doing in terms of covid-19 preparedness measures?
+    - I don't know if there are tips to prevent catching [covid-19](disease)
+    - how to overcome covid-19?
+    - my son is going back to school this monday I would like to know how he can best avoid himself from getting infected with [covid](disease)?
+    - are there preventive measures for [covid-19](disease)
+    - what are  the requires for fighting covid-19?
+    - how to win covid-19?
+    - which is easy way of elminating covid 19?
+    - how strategy people who are in transit center use to cover themselves against covid-19?
+    - How do I protect myself if I have been around someone who is infected with COVID-19?
+    - how to sensibilise deef people to fight covid 19?
+    - are there some preventions tips
+    - some preventive measures
+    - how people included in the activity of fighting covid 19?
+    - how do I make sure I dont get [covid 19](disease)?
+    - how to fight covid-19?
+    - is it allowed to share tools with a covid-19 patient
+    - how to live with covid-19?
+    - is hand sanitiser effective for covid-19?
+    - I keep seeing the rising number of [covid 19](disease) cases in [rusizi](location) where I live, how can I restrain myself?
+    - what the advice to someone who has covid-19?
+    - how does nongovernmental organisation operating in rwanda facilitate to deal with covid-19 issue?
+    - What can I do to ensure my workplace is safe for me and my colleague?
+    - what is the efective way of avoiding the impact of covid-19?
+    - what to do in presence of covid-19?
+    - which hygene measure is effective for covid-19?
+    - how a blind person can protect himself against covid-19 while he needs assistance of another people?
+    - how to deal with covid 19?
+    - can two vaccinated persons shake hands
+- intent: fines_penalties
+  examples: |
+    - what should i pay if i [don't obey bar](offence-bar)?
+    - what do i pay if i am seen in [gatherings not allowed](offence-gathering)?
+    - do I have to respect all covid-19 restrictions in case I was vaccinated?
+    - what do i pay if i am seen [without social distancing](offence-distance)?
+    - would I pay if I am [going to the bar](offence-bar)?
+    - what am i paying for [not following lockdown](offence-lockdown) rule?
+    - what happens if I am caught [in the bar](offence-bar)?
+    - are there covid penalties?
+    - what is the penalty if I [don't social distance](offence-distance)?
+    - what is the fine for being [in a bar](offence-bar)?
+    - can I [not wear a mask](offence-mask)?
+    - what should i pay if i [don't obey authorized gathering](offence-gathering)?
+    - what is the penalty if I [violate lockdown](offence-lockdown) rules?
+    - are there any penalties?
+    - is necessary to wear mask while you are not in the crowds for fighting covid 19?
+    - what is the repercussion for [not wearing a mask](offence-mask)?
+    - how fines asked to a person who breaks covid 19 rules?
+    - what happens if I am found in [gatherings not allowed](offence-gathering)?
+    - what do i pay if i am found [outside curfew hours](offence-curfew)?
+    - can I [go to the bar](offence-bar)?
+    - which penalties are there in place?
+    - I have been caught [not wearing a mask](offence-mask) correctly in my shop and I am told I should pay fines. What fines should I legally pay?
+    - what happens if I am found [outside curfew hours](offence-curfew)?
+    - tell me about fines
+    - what is the repercussion for [not following social distancing](offence-distance)?
+    - what am i paying for [not following social distancing](offence-distance) rule?
+    - what should i pay if i [disobey bar](offence-bar)?
+    - what happens if I am caught [outside during curfew](offence-curfew)?
+    - what are the penalties for [violating lockdown](offence-lockdown)?
+    - can I [visit the bar](offence-bar)?
+    - can I [not obey social distancing](offence-distance) rules?
+    - what will happen for [disobeying lockdown](offence-lockdown) rules?
+    - what happens if I am found [without a mask](offence-mask)?
+    - what happens if I am seen [outside curfew hours](offence-curfew)?
+    - do I have a fine if I [don't obey lockdown](offence-lockdown)?
+    - what happens if I am found [without social distancing](offence-distance)?
+    - what are the fine for [violating curfew](offence-curfew) rules?
+    - what am i paying for [not following curfew](offence-curfew) rule?
+    - what is the fine for [social distancig offences](offence-distance)?
+    - what happens if I [don't wear a mask](offence-mask)?
+    - what is the fine for attending [gatherings not authorized](offence-gathering)?
+    - what happens if I am seen staying [in the bar](offence-bar)?
+    - what is the fine for [curfew offences](offence-curfew)?
+    - what do i pay if i am found [in a bar](offence-bar)?
+    - what is the penalty for [not wearing a mask](offence-mask)?
+    - what's the price of [not wearing a mask](offence-mask)?
+    - what do I need to pay for [not obeying curfew](offence-curfew) rules?
+    - what is the repercussion for [not following permitted gatherings) rules myself?
+    - can I [not obey authorized gathering](offence-gathering) rules?
+    - what is the fine for [mask offences](offence-mask)?
+    - i don't know how much to pay if I am caught [outside during curfew](offence-curfew) hours
+    - what should i pay if i [don't obey curfew](offence-curfew)?
+    - what is the penalty for [gatherings not permitted](offence-gathering)?
+    - i don't know how much to pay if I am caught [going to lockdown areas](offence-lockdown) hours
+    - what happens if I [don't follow social distance](offence-distance) myself?
+    - what is the penalty for [not social distancing](offence-distance)?
+    - what are the fine for [not social distancing](offence-distance)?
+    - what do I need to pay for drinking [at the bar](offence-bar) with people?
+    - what happens if I am caught [not wearing a mask](offence-mask)?
+    - what is the repercussion for [not following lockdown](offence-lockdown) myself?
+    - i don't know how much to pay if I am caught [without obeying social distance](offence-distance)
+    - what are penalties
+    - what is the penalty if I [disobey lockdown](offence-lockdown)?
+    - would I pay if I [don't wear a mask](offence-mask)?
+    - what are the penalties if I [violate social distancing](offence-distance) rules?
+    - what are the penalties if I [don't wear a mask](offence-mask)?
+    - what happens if I am seen [leaving lockdown areas](offence-lockdown)?
+    - what happens if I am seen [without social distancing](offence-distance)?
+    - what am i paying for [not wearing a mask](offence-mask)?
+    - can I [violate lockdown](offence-lockdown) rules?
+    - what is the penalty if I [don't obey curfew](offence-curfew)?
+    - do I have a fine if I [don't obey social distance](offence-distance)?
+    - would I pay if I am [going to lockdown places](offence-lockdown)?
+    - do I have a fine if I [don't have a mask on](offence-mask)?
+    - what are offenses of disobeying the covid-19 restrictions
+    - what should i pay if i [don't obey lockdown](offence-lockdown)?
+    - what are the penalties if I [violate curfew](offence-curfew) rules?
+    - would I pay if I [disobey social distancing](offence-distance)?
+    - what do i pay if i am seen [in a bar](offence-bar)?
+    - what are the penalties if I [violate bar](offence-bar) rules?
+    - what is the fine for [not wearing a mask](offence-mask)?
+    - what am i paying for being in an [unauthorized gathering](offence-gathering) rule?
+    - how persons who disobey the covid-19 restrictions are punished
+    - i don't know how much to pay if I am caught in [unauthorized gathering](offence-gathering) hours
+    - would I pay if I am [outside during curfew](offence-curfew) hours?
+    - what's the price of being [at a bar](offence-bar) rule?
+    - what is the penalty for [violating bar](offence-bar)?
+    - what happens if I am seen in [gatherings not allowed](offence-gathering)?
+    - what's the price of [not following curfew](offence-curfew) rule?
+    - how can I be punished if I disobey the covid-19 restrictions
+    - i don't know how much to pay if I am caught [without a mask](offence-mask)
+    - what do i pay if i am found in [gatherings not allowed](offence-gathering)?
+    - what is the penalty if I [go to the bar](offence-bar)?
+    - what is the penalty for [violating curfew](offence-curfew)?
+    - what am i paying for being [at a bar](offence-bar)?
+    - what happens if I am found [at the bar](offence-bar)?
+    - what's the price of [not following lockdown](offence-lockdown) rule?
+    - what is the repercussion for [not following curfew](offence-curfew) myself?
+    - which offenses relating to covid-19 restrictions
+    - what is the fine for [unauthorized gatherings](offence-gathering)?
+    - what is the fine for [lockdown offences](offence-lockdown)?
+    - what is the penalty if I [violate the allowed gathering](offence-gathering) rules?
+    - what do i pay if i am found [without a mask](offence-mask)?
+    - do I have a fine if I [disobey curfew](offence-curfew)?
+    - what should i pay if i [don't wear a mask](offence-mask)?
+    - what happens if I am caught [not social distancing](offence-distance)?
+    - what do i pay if i am found [without social distancing](offence-distance)?
+    - what is the fine for [violating lockdown](offence-lockdown) rules?
+- synonym: covid
+  examples: |
+    - covid-19
+    - covid19
+    - covid 19
+    - corona
+    - corona virus
+    - pandemic
+- regex: salutation
+  examples: |
+    - hey[^\s]*
+- lookup: location
+  examples: |
+    - Bugesera
+    - Gatsibo
+    - Kayonza
+    - Kirehe
+    - Ngoma
+    - Nyagatare
+    - Rwamagana
+    - kigali
+    - Gasabo
+    - Kicukiro
+    - Nyarugenge
+    - Burera
+    - Gakenke
+    - Gicumbi
+    - Musanze
+    - Rulindo
+    - Gisagara
+    - Huye
+    - Kamonyi
+    - Muhanga
+    - Nyamagabe
+    - Nyanza
+    - Nyaruguru
+    - Ruhango
+    - Karongi
+    - Ngororero
+    - Nyabihu
+    - Nyamasheke
+    - Rubavu
+    - Rutsiro
+    - Rusizi
