@@ -8,19 +8,19 @@ setup(
     version="1.0",
     description="Mbaza AI Chatbot",
     author="Digital Umuganda",
-    author_email="",
+    author_email="info@digitalumuganda.com",
     maintainer="Charles Yusuf",
-    maintainer_email="charles@digitalumuganda.com",
-    url="ssh://git@git.risa.gov.rw:2222/risa/risa-gcino-projects/risa-innovation-division-projects/mbaza-chatbot/mbaza-chatbot-rasa-implementation/mbaza-chatbot-rasa-language-model-english.git",  # to be updated when in open source
-    packages=find_packages("mbaza-chatbot-rasa-language-model-english"),
+    maintainer_email="charles@freemanlabs.com",
+    url="https://github.com/MBAZA-NLP/mbaza-covid-chatbot-english.git",  # to be updated when in open source
+    packages=find_packages("mbaza-covid-chatbot-english"),
     classifiers=[
         "Development Status :: 1 - Alpha",
         "Intended Audience :: Developers",
         # supported python versions
         "Programming Language :: Python",
-        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
     ],
     install_requires=install_requires,
 )
