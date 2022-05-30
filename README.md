@@ -6,8 +6,9 @@ Here are the steps on how to set Mbaza up on your local machine:
 ##### 1. Clone the Mbaza repository:
 
 ```
-git clone ssh://git@git.risa.gov.rw:2222/risa/risa-gcino-projects/risa-innovation-division-projects/mbaza-chatbot/mbaza-chatbot-rasa-implementation/mbaza-chatbot-rasa-language-model-english.git
-cd mbaza-chatbot-rasa-language-model-english
+git remote add origin https://github.com/MBAZA-NLP/mbaza-covid-chatbot-english.git
+
+cd mbaza-covid-chatbot-english
 ```
 
 ##### 2. (OPTIONAL) Isolate your python project using a virtual environment
@@ -32,7 +33,7 @@ source ./venv/bin/activate
 make install
 ```
 
-This will install the bot and all of its requirements. Note that this bot should be used with python 3.6, 3.7 or 3.8.
+This will install the bot and all of its requirements. Note that this bot should be used with python 3.7, 3.8 or 3.9.
 
 ### Test Mbaza on your terminal:
 
